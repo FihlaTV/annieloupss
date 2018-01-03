@@ -63,7 +63,17 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+/* added by Jon */
+
 .img-thumbnail {
   display: block;
   margin:auto;
+}
+
+.carousel-inner .item img{
+    width: 100%;
+}
+
+#thumbnailRow {
+  margin-top: 20px;
 }
