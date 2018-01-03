@@ -30,10 +30,10 @@ class App extends Component {
 	      		<Header/>
 	      	</Row>
 	      	<Row>
-	      		<Col md={3}>
+	      		<Col md={2}>
 	      			<Navigation/>
 	      		</Col>
-	      		<Col md={9}>
+	      		<Col md={10}>
 	      			<Route exact path="/" component={Home}/>
   				    <Route path="/legal" component={Legal}/>
   				    <Route path="/faq" component={Faq}/>

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, NavItem } from 'react-bootstrap';
-import {
-  Link
-} from 'react-router-dom'
+import { LinkContainer } from 'react-router-bootstrap';
 
 class Navigation extends Component {
   constructor() {
@@ -17,15 +15,15 @@ class Navigation extends Component {
   render() {
     return (
       <div className="Nav">
-        <Nav bsStyle="pills" stacked onSelect={this.handleSelect}>
-		  <NavItem eventKey={1}><Link to="/">Home</Link></NavItem>
-		  <NavItem eventKey={2}><Link to="/about">About Us</Link></NavItem>
-		  <NavItem eventKey={3}><Link to="/rates">Our Rates</Link></NavItem>
-    	  <NavItem eventKey={4}><Link to="/customers">Our Happy Customers</Link></NavItem>
-		  <NavItem eventKey={5}><Link to="/legal">Legal</Link></NavItem>
-    	  <NavItem eventKey={6}><Link to="/faq">FAQ</Link></NavItem>
-    	  <NavItem eventKey={7}><Link to="/contact">Contact Us</Link></NavItem>
-  		</Nav>
+        <Nav pullRight bsStyle="pills" stacked onSelect={this.handleSelect}>
+    		  <LinkContainer to="/"><NavItem eventKey={1}>Home</NavItem></LinkContainer>
+    		  <LinkContainer to="/about"><NavItem eventKey={2}>About Us</NavItem></LinkContainer>
+    		  <LinkContainer to="/rates"><NavItem eventKey={3}>Our Rates</NavItem></LinkContainer>
+      	  <LinkContainer to="/customers"><NavItem eventKey={4}>Our Happy Customers</NavItem></LinkContainer>
+  		    <LinkContainer to="/legal"><NavItem eventKey={5}>Legal</NavItem></LinkContainer>
+      	  <LinkContainer to="/faq"><NavItem eventKey={6}>FAQ</NavItem></LinkContainer>
+      	  <LinkContainer to="/contact"><NavItem eventKey={7}>Contact Us</NavItem></LinkContainer>
+    		</Nav>
       </div>
     );
   }
