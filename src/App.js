@@ -35,12 +35,12 @@ class App extends Component {
 	      		</Col>
 	      		<Col md={9}>
 	      			<Route exact path="/" component={Home}/>
-				    <Route path="/legal" component={Legal}/>
-				    <Route path="/faq" component={Faq}/>
-				    <Route path="/customers" component={Customers}/>
-				    <Route path="/contact" component={Contact}/>
-				    <Route path="/rates" component={Rates}/>
-				    <Route path="/about" component={About}/>
+  				    <Route path="/legal" component={Legal}/>
+  				    <Route path="/faq" component={Faq}/>
+  				    <Route path="/customers" component={Customers}/>
+  				    <Route path="/contact" component={Contact}/>
+  				    <Route path="/rates" component={Rates}/>
+  				    <Route path="/about" component={About}/>
 	      		</Col>
 	      	</Row>
 	      	<Row>

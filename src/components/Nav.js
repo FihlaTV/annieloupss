@@ -23,7 +23,7 @@ class Navigation extends Component {
 		  <NavItem eventKey={3}><Link to="/rates">Our Rates</Link></NavItem>
     	  <NavItem eventKey={4}><Link to="/customers">Our Happy Customers</Link></NavItem>
 		  <NavItem eventKey={5}><Link to="/legal">Legal</Link></NavItem>
-    	  <NavItem eventKey={6}><Link to="/faq">Frequently Asked Questions</Link></NavItem>
+    	  <NavItem eventKey={6}><Link to="/faq">FAQ</Link></NavItem>
     	  <NavItem eventKey={7}><Link to="/contact">Contact Us</Link></NavItem>
   		</Nav>
       </div>
