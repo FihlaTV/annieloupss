@@ -2,24 +2,15 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Button extends Component {
-  static propTypes = {
-    email: PropTypes.string.isRequired,
-    formValues: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      email: PropTypes.string.isRequired,
-      message:  PropTypes.string.isRequired,
-    }).isRequired,
-  };
-  
-  constructor(props) {
-  	super(props);
+  constructor() {
+  	super();
   	this.state = {
   	  isClicked: false,
   	};
-    this.logFormDataToConsole = this.logFormDataToConsole.bind(this);
+    this.logFormDataToMailer = this.logFormDataToMailer.bind(this);
   }
   
-  logFormDataToConsole(event) {
+  logFormDataToMailer(event) {
     console.log('Form Values', this.props.formValues);
     this.setState({ isClicked: true });
   }
@@ -35,5 +26,14 @@ class Button extends Component {
   	);
   }
 }
+
+Button.propTypes = {
+    email: PropTypes.string.isRequired,
+    formValues: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      email: PropTypes.string.isRequired,
+      message:  PropTypes.string.isRequired,
+    }).isRequired,
+  };
 
 export default Button;

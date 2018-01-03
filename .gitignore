@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 src/email_config.json
+src/email_config.js
