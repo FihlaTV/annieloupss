@@ -21,7 +21,7 @@ class Home extends Component {
 
         <h4><strong>812-264-6466 or 502-551-8180 or email annieloupss@yahoo.com</strong></h4>
 
-        <h2><strong>"While You Are Away, Your Pets Will Be At Play!"</strong></h2>
+        <h2 className="centered"><strong>"While You Are Away, Your Pets Will Be At Play!"</strong></h2>
       </div>
     );
   }

@@ -11,6 +11,8 @@ import Contact from './components/Contact';
 import Rates from './components/Rates';
 import About from './components/About';
 import Footer from './components/Footer';
+import "typeface-arapey";
+import "typeface-vidaloka";
 import { 
   Grid,
   Row,
@@ -27,13 +29,11 @@ class App extends Component {
       <Router>
 	      <Grid className="App">
 	      	<Row>
-	      		<Header/>
-	      	</Row>
-	      	<Row>
 	      		<Col md={2}>
 	      			<Navigation/>
 	      		</Col>
 	      		<Col md={10}>
+              <Header/>
 	      			<Route exact path="/" component={Home}/>
   				    <Route path="/legal" component={Legal}/>
   				    <Route path="/faq" component={Faq}/>

@@ -8,7 +8,7 @@ class Rates extends Component {
         <hr/>
  
         <h2>Pet Sitting</h2>
-        <h4>All visits include potty break, feedings, water change, love and playtime.</h4>
+        <h4>All visits include potty break, feedings, water change, love, and playtime.</h4>
         <p>$30 -  per day for 1 dog (up to 3 visits)</p>
         <p>$40 -  per day for 2-3 dogs (up to 3 visits)</p>
         <p>$5 additional charge for 4 or more dogs.</p>
