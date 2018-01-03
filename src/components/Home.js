@@ -20,7 +20,8 @@ class Home extends Component {
         <p>Contact us today to find out how we can help provide the special care your little family member deserves. We look forward to hearing from you! Sincerely, Anne and Laura</p>
 
         <h4><strong>812-264-6466 or 502-551-8180 or email annieloupss@yahoo.com</strong></h4>
-
+        <br/>
+        <br/>
         <h2 className="centered"><strong>"While You Are Away, Your Pets Will Be At Play!"</strong></h2>
       </div>
     );

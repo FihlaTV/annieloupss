@@ -41,7 +41,9 @@ updateField(field, value) {
   	      value={this.state.message} 
   	    />
   	    {/* Submit Button */}
-  	    <Button 
+        <br/>
+  	    <Button
+          bsStyle="primary"
           email="email@email.com" 
           formValues={this.state} 
         />

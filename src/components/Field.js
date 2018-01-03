@@ -7,8 +7,9 @@ const Field = function(props) {
   if (props.label != 'Message') {
     return (
       <div>
-        <label>{props.label}: </label>
+        <label className="inputBoxLabel">{props.label}: </label>
         <input 
+          className="inputBox"
           onChange={props.onChange}
           type='text'
           value={props.value}
@@ -18,8 +19,9 @@ const Field = function(props) {
   } else {
     return(
       <div>
-        <label>{props.label}: </label>
+        <label className="textareaBoxLabel">{props.label}: </label>
         <textarea 
+          className="textareaBox"
           onChange={props.onChange}
           value={props.value}
         />
@@ -31,7 +33,6 @@ const Field = function(props) {
 Field.propTypes = {
   label: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
-  textarea: PropTypes.bool.isRequired,
   value: PropTypes.string.isRequired,
 };
 
