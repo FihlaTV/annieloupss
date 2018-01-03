@@ -1,4 +1,18 @@
 /* style sheet for Pet Website */
+
+* {
+  padding-top: 5px;
+}
+
+.module {
+  cursor: "fa fa-paw", 
+}
+
+.App {
+    background: linear-gradient(160deg, #B8B8B8 0%, #FFFFFF 100%);
+    border-radius: 10px;
+}
+
 body{
   font-family: 'Arapey', serif;
   margin: 0;
@@ -14,6 +28,29 @@ h1, h2, h3, h4 {
   text-align: justify;
 }
 
+.nav {
+  background-color: #b08aae;
+  box-shadow: 5px 5px 5px rgba(132,75,122);
+  border-radius: 10px;
+  width: 11em;
+  height: 25em;
+  position: fixed;
+  margin-top: -20px;
+  margin-left: -20px;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+}
+
+#navButton a{
+  color: #333333;
+  padding: 15px;
+}
+
+#navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover {
+  background-color: #844b7a;
+}
+
 .Header {
   font-family: 'Vidaloka', serif;
   display: block;
@@ -22,18 +59,16 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-.Footer{
-  display: block;
-  text-align: center;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.content {
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 .contactForm{
   width: 100%;
   height: 100%;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 .inputBoxLabel {
@@ -67,3 +102,12 @@ h1, h2, h3, h4 {
   display: block;
   margin:auto;
 }
+
+.Footer{
+  display: block;
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
