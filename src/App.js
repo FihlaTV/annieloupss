@@ -32,7 +32,7 @@ class App extends Component {
 	      		<Col md={2}>
 	      			<Navigation/>
 	      		</Col>
-	      		<Col md={10}>
+	      		<Col md={10} className="contentColumn">
               <Header/>
 	      			<Route exact path="/" component={Home}/>
   				    <Route path="/legal" component={Legal}/>
