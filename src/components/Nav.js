@@ -15,7 +15,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <div className="Nav">
+      <div className="NavMain">
         <Nav id="navButton" pullRight bsStyle="pills" stacked onSelect={this.handleSelect}>
     		  <LinkContainer exact to="/"><NavItem>Home</NavItem></LinkContainer>
     		  <LinkContainer to="/about"><NavItem>About Us</NavItem></LinkContainer>

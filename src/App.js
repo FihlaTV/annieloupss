@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Navigation from './components/Nav';
+import NavbarMobile from './components/Navbar';
 import Home from './components/Home';
 import Legal from './components/Legal';
 import Faq from './components/Faqs';
@@ -13,7 +14,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import "typeface-arapey";
 import "typeface-vidaloka";
-import { 
+import {
   Grid,
   Row,
   Col } from 'react-bootstrap';
@@ -28,11 +29,14 @@ class App extends Component {
     return (
       <Router>
 	      <Grid className="App">
+          <Row>
+            <NavbarMobile/>
+          </Row>
 	      	<Row>
-	      		<Col md={2}>
+	      		<Col md={2} className="sideNavColumn">
 	      			<Navigation/>
 	      		</Col>
-	      		<Col md={10} className="contentColumn">
+	      		<Col md={10} sm={12} className="contentColumn">
               <Header/>
 	      			<Route exact path="/" component={Home}/>
   				    <Route path="/legal" component={Legal}/>

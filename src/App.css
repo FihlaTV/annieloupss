@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
   border-radius: 10px;
   margin-top: 10px; }
 
-.nav {
+.NavMain {
   background-color: #b08aae;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 11em;
@@ -44,6 +44,33 @@ h1, h2, h3, h4 {
   font-weight: 600;
   font-size: 18px; }
 
+#navbarMobile {
+  display: none;
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #844b7a; }
+
+#navbarTitle {
+  color: #844b7a;
+  font-weight: bold; }
+
+.navbar-header {
+  font-size: 40px; }
+
+#navbarMobile a {
+  font-size: 30px; }
+
+@media screen and (max-width: 1200px) {
+  .App {
+    max-width: 100%; }
+
+  .sideNavColumn {
+    display: none; }
+
+  #navbarMobile {
+    display: block; } }
 #navButton a {
   color: #333333;
   padding: 15px; }

@@ -1,5 +1,5 @@
 //VARIABLES
-$bg-color:#B8B8B8
+$bg-color: #B8B8B8
 $light-purple: #b08aae
 $dark-purple: #844b7a
 $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
@@ -7,11 +7,11 @@ $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 //STYLES
 
-.module 
-  cursor: "fa fa-paw", 
+.module
+  cursor: "fa fa-paw",
 
 
-.App 
+.App
   background: linear-gradient(160deg, $bg-color 0%, #FFFFFF 100%)
   border-radius: 10px
   height: 100%
@@ -27,7 +27,7 @@ body
   height: 100%
 
 
-h1, h2, h3, h4 
+h1, h2, h3, h4
   font-family: 'Vidaloka', serif
   margin: auto
   text-align: justify
@@ -42,7 +42,7 @@ h1, h2, h3, h4
   border-radius: 10px
   margin-top: 10px
 
-.nav 
+.NavMain
   background-color: $light-purple
   box-shadow: $box-shadow
   width: 11em
@@ -55,6 +55,33 @@ h1, h2, h3, h4
   font-weight: 600
   font-size: 18px
 
+#navbarMobile
+  display: none
+  position: relative
+  min-height: 50px
+  margin-bottom: 20px
+  width: 100%
+  background-color: $dark-purple
+
+#navbarTitle
+  color: $dark-purple
+  font-weight: bold
+
+.navbar-header
+  font-size: 40px
+
+#navbarMobile a
+  font-size: 30px
+
+@media screen and (max-width: 1200px)
+  .App
+    max-width: 100%
+
+  .sideNavColumn
+    display: none
+
+  #navbarMobile
+    display: block
 
 #navButton a
   color: #333333
@@ -63,11 +90,11 @@ h1, h2, h3, h4
     background-color: darken($light-purple, 20%)
 
 
-#navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover 
+#navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover
   background-color: darken($light-purple, 20%)
   color: white
 
-.Header 
+.Header
   font-family: 'Vidaloka', serif
   display: block
   margin: auto
@@ -79,7 +106,7 @@ h1, h2, h3, h4
 
 
 
-.content 
+.content
   padding-left: 30px
   padding-bottom: 25%
 
@@ -94,11 +121,11 @@ h1, h2, h3, h4
   padding-left: 20px
 
 
-.inputBoxLabel 
+.inputBoxLabel
   padding-right: 30px
 
 
-.inputBox 
+.inputBox
   width: 80%
   margin-bottom: 10px
 
@@ -107,21 +134,21 @@ h1, h2, h3, h4
   padding-right: 10px
 
 
-.textareaBox 
+.textareaBox
   width: 80%
   height: 15em
 
 
-.smallerText 
+.smallerText
   padding-top: 0px
   font-size: 12px
 
 
-.centered 
+.centered
   text-align: center
 
 
-.img-thumbnail 
+.img-thumbnail
   display: block
   margin: auto
 
@@ -145,7 +172,7 @@ Button
 
 // added by Jon //
 
-.img-thumbnail 
+.img-thumbnail
   display: block
   margin: auto
 
@@ -154,5 +181,5 @@ Button
     width: 100%
 
 
-#thumbnailRow 
+#thumbnailRow
   margin-top: 20px
