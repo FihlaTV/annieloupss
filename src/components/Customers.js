@@ -8,7 +8,8 @@ import {
   Popover,
   Tooltip,
   Modal,
-  Button } from 'react-bootstrap';
+  Button,
+  Image } from 'react-bootstrap';
 
 class Customers extends Component {
   constructor() {
@@ -91,21 +92,16 @@ class Customers extends Component {
   }
 
   closeModal() {
-    console.log('close');
     const show = {...this.state};
     show.showModal = false;
-    this.setState({ show });
+    this.setState(show);
   }
 
   openModal(img) {
-    console.log('open');
     const show = {...this.state};
     show.showModal = true;
     show.modalImg = img;
-    console.log(show);
-    this.setState({ show });
-    console.log(this.state);
-    console.log('test');
+    this.setState(show);
   }
 
   renderCarousel(key) {
@@ -161,11 +157,8 @@ class Customers extends Component {
             <Modal.Title>Another Happy Customer!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img width={1710} height={1800} alt="Happy Customer" src={this.state.modalImg} />
+            <Image alt="Happy Customer" src={this.state.modalImg} responsive />
           </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.close}>Close</Button>
-          </Modal.Footer>
         </Modal>
       </Grid>
     );
