@@ -5,9 +5,10 @@ class Rates extends Component {
     return (
       <div className="content rates">
         <h1>Our Rates</h1>
-        <hr/>
+        <br/>
  
         <h2>Pet Sitting</h2>
+        <br/>
         <h4>All visits include potty break, feedings, water change, love, and playtime.</h4>
         <p>$30 -  per day for 1 dog (up to 3 visits)</p>
         <p>$40 -  per day for 2-3 dogs (up to 3 visits)</p>
@@ -19,6 +20,7 @@ class Rates extends Component {
         <hr/>
 
         <h2>Optional Services</h2>
+          <br/>
           <p>Dog walking - $5 per day</p>
           <p>Transportation to vet/groomer - $20 plus mileage</p>
           <p>Wait time at vet/groomer - $10 per hour</p>

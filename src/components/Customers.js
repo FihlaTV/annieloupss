@@ -141,14 +141,17 @@ class Customers extends Component {
     );
     return (
       <Grid fluid={true} className="content customers">
-        <h1>Our Happy Customers</h1>
-        <Row id="carouselRow">
-          <p>Scroll through our gallery to see who gave us two paws up!</p>
-          <p className="smallerText">(Alternating paws until they got treats, of course.)</p>
+        <div>
+          <h1>Our Happy Customers</h1>
+          <Row id="carouselRow">
+            <br/>
+            <p className="paddingLeft">Scroll through our gallery to see who gave us two paws up!</p>
+            <p className="smallerText paddingLeft">(Alternating paws until they got treats, of course.)</p>
           <Carousel>
             {Object.keys(this.state.carousel).map(this.renderCarousel)}
           </Carousel>
-        </Row>
+          </Row>
+        </div>
         <Row id="thumbnailRow">
             {Object.keys(this.state.individualImages).map(this.renderThumbnails)}
         </Row>

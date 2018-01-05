@@ -29,8 +29,11 @@ body
 
 h1, h2, h3, h4 
   font-family: 'Vidaloka', serif
-  margin:auto
+  margin: auto
   text-align: justify
+
+.phoneNumber
+  text-align: center
 
 .puppy_banner
   box-shadow: $box-shadow
@@ -49,7 +52,8 @@ h1, h2, h3, h4
   margin-left: -20px
   display: block
   text-align: center
-  font-weight: 500
+  font-weight: 600
+  font-size: 18px
 
 
 #navButton a
@@ -61,19 +65,26 @@ h1, h2, h3, h4
 
 #navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover 
   background-color: darken($light-purple, 20%)
+  color: white
 
 .Header 
   font-family: 'Vidaloka', serif
   display: block
-  margin:auto
+  margin: auto
+  margin-top: 5px
   font-size: 48px
   text-align: center
   color: $dark-purple
   font-weight: 900
 
 
+
 .content 
   padding-left: 30px
+  padding-bottom: 25%
+
+.paddingLeft
+  padding-left: 20px
 
 
 .contactForm
@@ -88,7 +99,7 @@ h1, h2, h3, h4
 
 
 .inputBox 
-  width: 50%
+  width: 80%
   margin-bottom: 10px
 
 
@@ -97,7 +108,7 @@ h1, h2, h3, h4
 
 
 .textareaBox 
-  width: 50%
+  width: 80%
   height: 15em
 
 
@@ -114,6 +125,16 @@ h1, h2, h3, h4
   display: block
   margin: auto
 
+Button
+  display: block
+  margin: auto
+  padding: 5px 25px 5px 25px
+  border-radius: 10px
+  background-color: $light-purple
+  box-shadow: 5px 5px 5px $dark-purple
+  font-size: 24px
+  border-style: solid
+  border-color: $dark-purple
 
 .Footer
   display: block
@@ -126,7 +147,7 @@ h1, h2, h3, h4
 
 .img-thumbnail 
   display: block
-  margin:auto
+  margin: auto
 
 
 .carousel-inner .item img

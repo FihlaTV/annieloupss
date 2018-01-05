@@ -18,7 +18,11 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Vidaloka", serif;
+  margin: auto;
   text-align: justify; }
+
+.phoneNumber {
+  text-align: center; }
 
 .puppy_banner {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -37,7 +41,8 @@ h1, h2, h3, h4 {
   margin-left: -20px;
   display: block;
   text-align: center;
-  font-weight: 500; }
+  font-weight: 600;
+  font-size: 18px; }
 
 #navButton a {
   color: #333333;
@@ -46,18 +51,25 @@ h1, h2, h3, h4 {
     background-color: #7f557c; }
 
 #navButton > li.active > a, #navButton > li.active > a:focus, #navButton > li.active > a:hover {
-  background-color: #7f557c; }
+  background-color: #7f557c;
+  color: white; }
 
 .Header {
   font-family: "Vidaloka", serif;
   display: block;
+  margin: auto;
+  margin-top: 5px;
   font-size: 48px;
   text-align: center;
   color: #844b7a;
   font-weight: 900; }
 
 .content {
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 25%; }
+
+.paddingLeft {
+  padding-left: 20px; }
 
 .contactForm {
   width: 100%;
@@ -69,14 +81,14 @@ h1, h2, h3, h4 {
   padding-right: 30px; }
 
 .inputBox {
-  width: 50%;
+  width: 80%;
   margin-bottom: 10px; }
 
 .textareaBoxLabel {
   padding-right: 10px; }
 
 .textareaBox {
-  width: 50%;
+  width: 80%;
   height: 15em; }
 
 .smallerText {
@@ -90,13 +102,25 @@ h1, h2, h3, h4 {
   display: block;
   margin: auto; }
 
+Button {
+  display: block;
+  margin: auto;
+  padding: 5px 25px 5px 25px;
+  border-radius: 10px;
+  background-color: #b08aae;
+  box-shadow: 5px 5px 5px #844b7a;
+  font-size: 24px;
+  border-style: solid;
+  border-color: #844b7a; }
+
 .Footer {
   display: block;
   margin: auto;
   text-align: center; }
 
 .img-thumbnail {
-  display: block; }
+  display: block;
+  margin: auto; }
 
 .carousel-inner .item img {
   width: 100%; }

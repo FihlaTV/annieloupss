@@ -21,6 +21,10 @@ updateField(field, value) {
   render() {
   	return(
   	  <div className="contactForm">
+      <h4> Questions, comments, or concerns?</h4>
+      <br/>
+      <p> Please write us below and we will do our best to answer in a timely fashion.</p>
+      <br/>
   	    {/* Name field */}
   	    <Field
           label="Name"

@@ -11,6 +11,7 @@ class About extends Component {
     return (
       <div className="content about">
         <h1>Meet Your New Sitters!</h1>
+        <br/>
         <Row>
           <Col xs={12} md={6}>
             <img src={pikaprofile} className="img-thumbnail" alt="Laura"/>

@@ -5,6 +5,7 @@ class Faq extends Component {
     return (
       <div className="content faq">
         <h1>Frequently Asked Questions</h1>
+        <br/>
         <p>We try to anticipate questions you might have about our service and provide the answers here. If you need additional information send email to annieloupss@yahoo.com</p>
         <ol>
           <li>How much notice do you have to give to book a reservation?</li>
