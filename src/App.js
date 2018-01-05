@@ -41,10 +41,8 @@ class App extends Component {
   				    <Route path="/contact" component={Contact}/>
   				    <Route path="/rates" component={Rates}/>
   				    <Route path="/about" component={About}/>
+              <Footer />
 	      		</Col>
-	      	</Row>
-	      	<Row>
-	      		<Footer />
 	      	</Row>
 	      </Grid>
 	  </Router>

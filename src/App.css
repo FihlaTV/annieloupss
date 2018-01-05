@@ -1,113 +1,102 @@
-/* style sheet for Pet Website */
-
-* {
-  padding-top: 5px;
-}
-
 .module {
-  cursor: "fa fa-paw", 
-}
+  cursor: "fa fa-paw"; }
 
 .App {
-    background: linear-gradient(160deg, #B8B8B8 0%, #FFFFFF 100%);
-    border-radius: 10px;
-}
+  background: linear-gradient(160deg, #B8B8B8 0%, #FFFFFF 100%);
+  border-radius: 10px; }
 
-body{
-  font-family: 'Arapey', serif;
+body {
+  font-family: "Arapey", serif;
   margin: 0;
   padding: 0;
   font-size: 18px;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 h1, h2, h3, h4 {
-  font-family: 'Vidaloka', serif;
-  margin:auto;
-  padding: 10px 0px 10px 0px;
-  text-align: justify;
-}
+  font-family: "Vidaloka", serif;
+  text-align: justify; }
+
+.puppy_banner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  display: block;
+  border-radius: 10px; }
 
 .nav {
   background-color: #b08aae;
-  box-shadow: 5px 5px 5px rgba(132,75,122);
-  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 11em;
-  height: 25em;
   position: fixed;
-  margin-top: -20px;
+  top: 0;
+  bottom: 0;
   margin-left: -20px;
   display: block;
   text-align: center;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
-#navButton a{
+#navButton a {
   color: #333333;
-  padding: 15px;
-}
+  padding: 15px; }
+  #navButton a:hover {
+    background-color: #7f557c; }
 
-#navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover {
-  background-color: #844b7a;
-}
+#navButton > li.active > a, #navButton > li.active > a:focus, #navButton > li.active > a:hover {
+  background-color: #7f557c; }
 
 .Header {
-  font-family: 'Vidaloka', serif;
+  font-family: "Vidaloka", serif;
   display: block;
-  margin:auto;
   font-size: 48px;
   text-align: center;
-}
+  color: #844b7a;
+  font-weight: 900; }
 
 .content {
-  padding-top: 20px;
-  padding-left: 30px;
-}
+  padding-left: 30px; }
 
-.contactForm{
+.contactForm {
   width: 100%;
   height: 100%;
   padding-top: 20px;
-  padding-left: 20px;
-}
+  padding-left: 20px; }
 
 .inputBoxLabel {
-  padding-right: 30px;
-}
+  padding-right: 30px; }
 
 .inputBox {
   width: 50%;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-.textareaBoxLabel{
-  padding-right: 10px;
-}
+.textareaBoxLabel {
+  padding-right: 10px; }
 
 .textareaBox {
   width: 50%;
-  height: 15em;
-}
+  height: 15em; }
 
 .smallerText {
   padding-top: 0px;
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .centered {
-  text-align: center;
-}
+  text-align: center; }
 
 .img-thumbnail {
   display: block;
-  margin:auto;
-}
+  margin: auto; }
 
-.Footer{
+.Footer {
   display: block;
-  text-align: center;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+  margin: auto;
+  text-align: center; }
 
+.img-thumbnail {
+  display: block; }
+
+.carousel-inner .item img {
+  width: 100%; }
+
+#thumbnailRow {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=App.css.map */
