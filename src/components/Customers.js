@@ -147,6 +147,7 @@ class Customers extends Component {
             <br/>
             <p className="paddingLeft">Scroll through our gallery to see who gave us two paws up!</p>
             <p className="smallerText paddingLeft">(Alternating paws until they got treats, of course.)</p>
+            <br/>
           <Carousel>
             {Object.keys(this.state.carousel).map(this.renderCarousel)}
           </Carousel>

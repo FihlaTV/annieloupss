@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <img src={puppy_banner} className="puppy_banner" alt="AnnieLouBanner"/>
+        <img src={puppy_banner} className="puppy_banner img-fluid" alt="AnnieLouBanner"/>
         <h1 className="Header">Annie Lou's Pet Sitting Service</h1>
         <hr/>
       </div>

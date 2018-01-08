@@ -7,9 +7,6 @@ $box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 //STYLES
 
-.module
-  cursor: "fa fa-paw",
-
 
 .App
   background: linear-gradient(160deg, $bg-color 0%, #FFFFFF 100%)
@@ -54,6 +51,8 @@ h1, h2, h3, h4
   text-align: center
   font-weight: 600
   font-size: 18px
+  &:hover
+    cursor: url(img/paw.png), auto
 
 #navbarMobile
   display: none
@@ -83,11 +82,14 @@ h1, h2, h3, h4
   #navbarMobile
     display: block
 
+
+
 #navButton a
   color: #333333
   padding: 15px
   &:hover
     background-color: darken($light-purple, 20%)
+    cursor: url(img/paw.png), auto
 
 
 #navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover
