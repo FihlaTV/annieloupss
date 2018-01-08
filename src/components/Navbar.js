@@ -8,11 +8,12 @@ class NavbarMobile extends Component {
       <Navbar id="navbarMobile">
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#home" id="navbarTitle">Annie Lou's</a>
+            <a href="/" id="navbarTitle">Annie Lou's <span id="navbar-sub-header">Pet Sitting Service</span></a>
           </Navbar.Brand>
         </Navbar.Header>
+
         <Nav pullRight>
-          <NavDropdown eventKey={1} title="&#9776;" id="basic-nav-dropdown">
+          <NavDropdown eventKey={1} title="Menu" id="basic-nav-dropdown">
             <LinkContainer exact to="/"><MenuItem>Home</MenuItem></LinkContainer>
             <LinkContainer to="/about"><MenuItem>About Us</MenuItem></LinkContainer>
             <LinkContainer to="/rates"><MenuItem>Our Rates</MenuItem></LinkContainer>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { 
+  Image,
   Grid,
   Row,
   Col } from 'react-bootstrap';
@@ -9,8 +10,8 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <img src={puppy_banner} className="puppy_banner" alt="AnnieLouBanner"/>
-        <h1 className="Header">Annie Lou's Pet Sitting Service</h1>
+        <Image src={puppy_banner} className="puppy_banner" alt="AnnieLouBanner" responsive/>
+        <h1 className="Header">Annie Lou's <span id="main-sub-header">Pet Sitting Service</span></h1>
         <hr/>
       </div>
     );

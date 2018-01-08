@@ -62,15 +62,6 @@ h1, h2, h3, h4 {
 #navbarMobile a {
   font-size: 30px; }
 
-@media screen and (max-width: 1200px) {
-  .App {
-    max-width: 100%; }
-
-  .sideNavColumn {
-    display: none; }
-
-  #navbarMobile {
-    display: block; } }
 #navButton a {
   color: #333333;
   padding: 15px; }
@@ -154,5 +145,28 @@ Button {
 
 #thumbnailRow {
   margin-top: 20px; }
+
+#navbar-sub-header {
+  font-size: 25px; }
+
+@media screen and (max-width: 1200px) {
+  .App {
+    max-width: 100%; }
+
+  .sideNavColumn {
+    display: none; }
+
+  #navbarMobile {
+    display: block; }
+
+  .content {
+    padding-left: 0; }
+
+  .carousel {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  #main-sub-header {
+    font-size: 36px;
+    display: block; } }
 
 /*# sourceMappingURL=App.css.map */
