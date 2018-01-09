@@ -1,6 +1,3 @@
-.module {
-  cursor: "fa fa-paw"; }
-
 .App {
   background: linear-gradient(160deg, #B8B8B8 0%, #FFFFFF 100%);
   border-radius: 10px;
@@ -43,6 +40,8 @@ h1, h2, h3, h4 {
   text-align: center;
   font-weight: 600;
   font-size: 18px; }
+  .NavMain:hover {
+    cursor: url(img/paw.png), auto; }
 
 #navbarMobile {
   display: none;
@@ -66,7 +65,8 @@ h1, h2, h3, h4 {
   color: #333333;
   padding: 15px; }
   #navButton a:hover {
-    background-color: #7f557c; }
+    background-color: #7f557c;
+    cursor: url(img/paw.png), auto; }
 
 #navButton > li.active > a, #navButton > li.active > a:focus, #navButton > li.active > a:hover {
   background-color: #7f557c;
