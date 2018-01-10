@@ -7,7 +7,7 @@ class Footer extends Component {
         <hr/>
       	<p>812-264-6466 or 502-551-8180</p>
       	<p>annieloupss@yahoo.com</p>
-        <p className="smallerText">&copy;2018 Bad-Ass Web Design LLC, a subsidiary of Very Good Web Development Inc.</p>
+        <p className="smallerText">&copy;Made by Web Developers, Steven and Jon</p>
       </div>
     );
   }
