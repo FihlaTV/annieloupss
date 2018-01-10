@@ -9,9 +9,8 @@ class Rates extends Component {
       <div className="content rates">
         <h1>Our Rates</h1>
         <br/>
-
         <h2>Pet Sitting</h2>
-        <Table striped responsive>
+        <Table striped className="table-responsive">
 		      <thead>
 			       <tr>
 				       <th>Service</th>
@@ -31,7 +30,7 @@ class Rates extends Component {
       				<td>$5 additional charge per dog for 4 or more dogs.</td>
               <td></td>
       			</tr>
-            <tr colspan="2">
+            <tr>
       				<td><br/>Prices may be customized depending of the geographical location and any particular needs.
               <br/>
               <br/>
@@ -43,7 +42,7 @@ class Rates extends Component {
           <br/>
         <h2>Optional Services</h2>
           <br/>
-          <Table striped responsive>
+          <Table striped className="table-responsive">
 		      <thead>
 			       <tr>
 				       <th>Service</th>

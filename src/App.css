@@ -168,5 +168,9 @@ Button {
   #main-sub-header {
     font-size: 36px;
     display: block; } }
+h1, h2, h3, h4 {
+  font-family: "Vidaloka", serif;
+  margin: auto;
+  text-align: start; }
 
 /*# sourceMappingURL=app.css.map */
