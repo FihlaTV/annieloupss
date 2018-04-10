@@ -21,6 +21,10 @@ updateField(field, value) {
   render() {
   	return(
   	  <div className="contactForm">
+      <h4> Questions, comments, or concerns?</h4>
+      <br/>
+      <p> Please write us below and we will do our best to answer in a timely fashion.</p>
+      <br/>
   	    {/* Name field */}
   	    <Field
           label="Name"
@@ -41,7 +45,9 @@ updateField(field, value) {
   	      value={this.state.message} 
   	    />
   	    {/* Submit Button */}
-  	    <Button 
+        <br/>
+  	    <Button
+          bsStyle="primary"
           email="email@email.com" 
           formValues={this.state} 
         />

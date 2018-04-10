@@ -3,26 +3,37 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Stateless component / Functional component
-const Field = (props) => (
-  <div>
-    <label>{props.label}: </label>
-    <input 
-      onChange={props.onChange}
-      type={props.textarea ? 'textarea' : 'text'}
-      value={props.value}
-    />
-  </div>
-);
+const Field = function(props) {
+  if (props.label != 'Message') {
+    return (
+      <div>
+        <label className="inputBoxLabel">{props.label}: </label>
+        <input 
+          className="inputBox"
+          onChange={props.onChange}
+          type='text'
+          value={props.value}
+        />
+      </div>
+    )
+  } else {
+    return(
+      <div>
+        <label className="textareaBoxLabel">{props.label}: </label>
+        <textarea 
+          className="textareaBox"
+          onChange={props.onChange}
+          value={props.value}
+        />
+      </div>
+    )
+  }
+};
 
 Field.propTypes = {
   label: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
-  textarea: PropTypes.bool.isRequired,
   value: PropTypes.string.isRequired,
-};
-
-Field.defaultProps = {
-  textarea: false,
 };
 
 export default Field;

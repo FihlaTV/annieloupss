@@ -1,0 +1,207 @@
+//VARIABLES
+$bg-color: #B8B8B8
+$light-purple: #b08aae
+$dark-purple: #844b7a
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
+
+//STYLES
+
+
+.App
+  background: linear-gradient(160deg, $bg-color 0%, #FFFFFF 100%)
+  border-radius: 10px
+  height: 100%
+
+body
+  font-family: 'Arapey', serif
+  margin: 0
+  padding: 0
+  font-size: 20px
+  font-weight: 500
+
+.contentColumn
+  height: 100%
+
+
+h1, h2, h3, h4
+  font-family: 'Vidaloka', serif
+  margin: auto
+  text-align: justify
+
+.phoneNumber
+  text-align: center
+
+.puppy_banner
+  box-shadow: $box-shadow
+  margin: auto
+  display: block
+  border-radius: 10px
+  margin-top: 10px
+
+.NavMain
+  background-color: $light-purple
+  box-shadow: $box-shadow
+  width: 11em
+  position: fixed
+  top: 0
+  bottom: 0
+  margin-left: -20px
+  display: block
+  text-align: center
+  font-weight: 600
+  font-size: 18px
+  &:hover
+    cursor: url(img/paw.png), auto
+
+#navbarMobile
+  display: none
+  position: relative
+  min-height: 50px
+  margin-bottom: 20px
+  width: 100%
+  background-color: $dark-purple
+
+#navbarTitle
+  color: $dark-purple
+  font-weight: bold
+
+.navbar-header
+  font-size: 40px
+
+#navbarMobile a
+  font-size: 30px
+
+#navButton a
+  color: #333333
+  padding: 15px
+  &:hover
+    background-color: darken($light-purple, 20%)
+    cursor: url(img/paw.png), auto
+
+
+#navButton > li.active > a, #navButton> li.active > a:focus, #navButton > li.active > a:hover
+  background-color: darken($light-purple, 20%)
+  color: white
+
+.Header
+  font-family: 'Vidaloka', serif
+  display: block
+  margin: auto
+  margin-top: 5px
+  font-size: 48px
+  text-align: center
+  color: $dark-purple
+  font-weight: 900
+
+
+
+.content
+  padding-left: 30px
+  padding-bottom: 25%
+
+.paddingLeft
+  padding-left: 20px
+
+
+.contactForm
+  width: 100%
+  height: 100%
+  padding-top: 20px
+  padding-left: 20px
+
+
+.inputBoxLabel
+  padding-right: 30px
+
+
+.inputBox
+  width: 80%
+  margin-bottom: 10px
+
+
+.textareaBoxLabel
+  padding-right: 10px
+
+
+.textareaBox
+  width: 80%
+  height: 15em
+
+
+.smallerText
+  padding-top: 0px
+  font-size: 12px
+
+
+.centered
+  text-align: center
+
+
+.img-thumbnail
+  display: block
+  margin: auto
+
+Button
+  display: block
+  margin: auto
+  padding: 5px 25px 5px 25px
+  border-radius: 10px
+  background-color: $light-purple
+  box-shadow: 5px 5px 5px $dark-purple
+  font-size: 24px
+  border-style: solid
+  border-color: $dark-purple
+
+.Footer
+  display: block
+  margin: auto
+  text-align: center
+
+
+
+// added by Jon //
+
+.img-thumbnail
+  display: block
+  margin: auto
+
+
+.carousel-inner .item img
+    width: 100%
+
+
+#thumbnailRow
+  margin-top: 20px
+
+#navbar-sub-header
+  font-size: 25px
+
+@media screen and (max-width: 1200px)
+  .App
+    max-width: 100%
+
+  .sideNavColumn
+    display: none
+
+  #navbarMobile
+    display: block
+
+  .content
+    padding-left: 0
+
+  .carousel
+    display: none
+
+@media screen and (max-width: 768px)
+  #main-sub-header
+    font-size: 36px
+    display: block
+
+h1, h2, h3, h4
+  font-family: 'Vidaloka', serif
+  margin: auto
+  text-align: start
+
+@media screen and (max-width: 768px)
+  //.navbar-nav
