@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { 
-  Image,
-  Grid,
-  Row,
-  Col } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import puppy_banner from "../img/puppy_banner.png"
 
 class Header extends Component {

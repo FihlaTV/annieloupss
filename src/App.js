@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Navigation from './components/Nav';
@@ -21,7 +20,8 @@ import {
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  Switch,
 } from 'react-router-dom'
 
 class App extends Component {
